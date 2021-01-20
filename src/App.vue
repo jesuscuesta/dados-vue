@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <h1>Juega a los dados</h1>
-    <div>
-      <Jugador :posicion="1" nombre="Jesus"></Jugador>
-      <Jugador :posicion="2" nombre="Andrés"></Jugador>
+    <div style="display:flex;">
+      <Jugador :posicion="1" nombre="Jesus" style="margin: 40px;"></Jugador>
+      <Jugador :posicion="2" nombre="Andrés" style="margin: 40px;"></Jugador>
     </div>
   </div>
 </template>
